@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class subsetSum {
     public static void main(String[] args) {
-        int arr[] = {2 ,3};
+        int arr[] = {1 ,2 ,2};
         int track = Arrays.stream(arr).sum();
         printSubSutSum(arr , 0 ,arr.length ,0 , track);
 
